@@ -1,0 +1,163 @@
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainHeading {
+  font-size: 45px;
+  padding-top: 7px;
+}
+
+.logo {
+  height: 90px;
+}
+
+.main {
+  display: flex;
+}
+
+.left {
+  width: 30%;
+  height: 400px;
+}
+
+.imageLeft {
+  margin-top: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.right {
+  width: 69%;
+}
+
+.images {
+  width: 150px;
+  height: 140px;
+  border-radius: 50px;
+}
+
+.block1 {
+  display: flex;
+  border: 5px solid #D32F2F;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.block2 {
+  display: flex;
+  border: 5px solid #000080;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.block3 {
+  display: flex;
+  border: 5px solid #85C1E9;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.footerSection {
+  text-align: center;
+  font-size: 40px;
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+  .mainHeading {
+    font-size: 30px;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .main {
+    display: inline;
+  }
+
+  .left {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .imageLeft {
+    height: 380px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .block1 {
+    display: inline-block;
+    margin-top: 0px;
+  }
+
+  .block2 {
+    display: inline-block;
+  }
+
+  .block3 {
+    display: inline-block;
+  }
+
+  .imageDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .h1Section {
+    padding-left: 10px;
+  }
+
+  .textArea {
+    font-size: 20px;
+    padding-left: 9px;
+  }
+
+  .footerSection {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width:780px) {
+  .mainHeading {
+    font-size: 35px;
+    padding-top: 0px;
+  }
+
+  .main {
+    display: inline;
+  }
+
+  .left {
+    width: 70%;
+  }
+
+  .imageLeft {
+    margin-top: 0;
+    padding-left: 170px;
+    width: 80%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .imageDiv {
+    padding-top: 75px;
+  }
+
+  .images {
+    width: 200px;
+    height: 70%;
+  }
+
+  .h1Section {
+    font-size: 25px;
+  }
+
+  .textArea {
+    font-size: 30px;
+  }
+}
